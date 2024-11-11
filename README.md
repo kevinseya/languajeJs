@@ -8,7 +8,7 @@ Make sure you have **Node.js** installed. If not, download and install it from [
 
 ## Getting Started
 
-### Clone the repository (if applicable)
+### 1. Clone the repository (if applicable)
 
 ```bash
 git clone https://github.com/kevinseya/languajeJs.git
@@ -21,7 +21,15 @@ Inside your project folder, initialize the project (if not done already):
 
 ```bash
 npm init -y
+npm install
 ```
+
+### 3. Run the Project
+you may need to specify the main file, such as app.js or index.js. For example:
+```bash
+node app.js
+```
+
 ### Run the image of Docker Hub
 
 You can pull and run it on any machine that has Docker installed.
@@ -30,3 +38,10 @@ docker push kevinseya/languaje-js-app:latest
 
 docker run -p 3000:3000 kevinseya/languaje-js-app:latest
 ```
+
+### Usage
+Once the application is running, you can access it at http://localhost:3000.
+
+### Deployed in service PAAS Digital Ocean
+
+https://languaje-js-j7jft.ondigitalocean.app/
