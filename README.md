@@ -20,7 +20,6 @@ If you have the project in a repository, clone it to your local machine. Otherwi
 Inside your project folder, initialize the project (if not done already):
 
 ```bash
-npm init -y
 npm install
 ```
 
