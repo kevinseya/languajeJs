@@ -33,7 +33,7 @@ node app.js
 
 You can pull and run it on any machine that has Docker installed.
 ```bash
-docker push kevinseya/languaje-js-app:latest
+docker pull kevinseya/languaje-js-app:latest
 
 docker run -p 3000:3000 kevinseya/languaje-js-app:latest
 ```
